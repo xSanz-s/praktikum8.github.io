@@ -1,0 +1,63 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4a90e2;
+    color: #333;
+  }
+  .heading {
+    background-color: #4a90e2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 30vw;
+    padding: 2em 1em;
+  }
+  .heading h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  nav {
+    background-color: #4a90e2;
+    text-align: center;
+    padding: 1em 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 4px, 10px, 0.5);
+  }
+  section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+  }
+  #kontak li {
+    list-style: none;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+    font-size: 0.9em 4;
+  }  
